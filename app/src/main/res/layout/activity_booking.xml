@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Menampilkan lapangan yang dipilih -->
+        <TextView
+            android:id="@+id/venueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Nama Pemesan -->
+        <TextView
+            android:id="@+id/tvNamaLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Pemesan"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Masukkan Nama Pemesan"
+            android:textSize="16sp" />
+
+        <!-- Pilihan Tanggal -->
+        <TextView
+            android:id="@+id/tvTanggalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Pilih Tanggal"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:background="?android:attr/selectableItemBackground" />
+
+        <!-- Pilihan Jam -->
+        <TextView
+            android:id="@+id/tvWaktuLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Waktu"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etWaktu"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Pilih Waktu"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:background="?android:attr/selectableItemBackground" />
+
+        <!-- Tombol Kirim -->
+        <Button
+            android:id="@+id/btnKirim"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Kirim Pemesanan"
+            android:layout_marginTop="32dp"/>
+
+        <!-- Tombol Kembali -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

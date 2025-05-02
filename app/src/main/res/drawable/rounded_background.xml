@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#1A3636" /> <!-- Warna background -->
+    <corners android:radius="16dp" /> <!-- Sudut bulat -->
+    <padding
+        android:left="16dp"
+        android:top="8dp"
+        android:right="16dp"
+        android:bottom="8dp" /> <!-- Padding untuk jarak dalam kotak -->
+</shape>
